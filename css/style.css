@@ -39,6 +39,7 @@ body{
     float: left;
 }
 .header-left img{
+    padding-top: 15px;
     width: 130px;
 }
 /* menu css */
