@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+
+.left{
+    text-align: left;
+
+}
+.right{
+    text-align: right;
+
+}
+.center{
+    text-align: center;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header css */
+
+/* logo css */
+.header{
+    background-color:royalblue ;
+}
+.header-left{
+    align-items: center;
+    width: 30%;
+    float: left;
+}
+.header-left img{
+    width: 130px;
+}
+/* menu css */
+.header-right{
+    width: 70%;
+    float: right;
+}
+
+.header-right ul{
+    text-align: center;
+    list-style: none;
+}
+
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    border-right:1px solid #fff;
+}
+/* header css end */
+
+/* slider css */
+.slider{
+    position: relative;
+    background-image: url('https://jssors8.azureedge.net/demos/img/gallery/980x380/046.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    z-index: 1;
+}
+.slider::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(122, 12, 248, 0.301);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.slider-content{
+    color: #fff;
+
+}.slider-content h2{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.slider-content p{
+    font-size: 20px;
+    max-width: 620px;
+    color: #fff;
+    margin: auto;
+
+}
+/* service css */
+.service{
+    padding: 80px 0px;
+}
+
+.service-content{}
+
+h2.title{
+    border-bottom: 3px solid blue;
+    width: 300px;
+    margin: auto;
+}    
+.service-item{
+    float: left;
+    width: 30%;
+    box-shadow: 0px 0px 1px black;
+    box-sizing: border-box;
+    padding: 22px;
+    margin: 35px 18px 20px 18px;
+}
+.service-item span{
+    width: 76px;
+    height: 60px;
+    background: green;
+    color: #fff;
+    font-size: 40px;
+    display: inline-block;
+    line-height: 65px;
+    border-radius: 48%;
+}
+.service-item h2{
+    margin: 11px 10px 10px 0px;
+
+}
+.service-item p{
+
+}
+/* footer css */
+.footer{
+    padding: 25px 0px ;
+    background-color: rgba(5, 5, 255, 0.568);
+}
+.footer-left{
+    float: left;
+    width: 50%;
+}
+.footer-left p{
+    
+    color: #fff;
+    
+}
+.footer-right{
+    width: 50%;
+    float: right;
+}
+.footer-right ul{
+    list-style: none;
+}
+.footer-right ul li{
+    display: inline-block;
+    
+}
+.footer-right ul li a{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+
+
